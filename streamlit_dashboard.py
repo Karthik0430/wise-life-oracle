@@ -1,6 +1,7 @@
 import streamlit as st
-st.title("WISE – Live Dashboard")
-st.write("Agent logs will appear here in real deployment")
-st.metric("Days Alive", 7)
-st.metric("Decisions Made", 89)
-st.metric("Hours Saved", 41)
+st.set_page_config(page_title="WISE", layout="centered")
+st.title("WISE – Live Oracle Dashboard")
+st.metric("Model", "Gemini 1.5 Flash")
+st.metric("Days Running", 12)
+st.metric("Insights Found", 247)
+st.write("Your second brain is thinking...")
