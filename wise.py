@@ -10,7 +10,7 @@ import time
 
 # === PUT YOUR GOOGLE AI STUDIO KEY HERE (or in .env file) ===
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or "YOUR_AI_STUDIO_KEY_HERE"  # ← paste here
+GOOGLE_API_KEY = os.getenv("AIzaSyC2QLQMk5SA9y1v99PkVn4_615f3ayast0")
 
 # Choose model: gemini-1.5-flash (fast & free) or gemini-1.5-pro (1M context)
 llm = ChatGoogleGenerativeAI(
