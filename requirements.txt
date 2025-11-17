@@ -1,0 +1,11 @@
+crewai[all]==0.51.0
+langchain-openai
+langchain-community
+chromadb
+streamlit
+langfuse
+modal
+e2b-code-interpreter
+serpapi
+google-search-results
+python-dotenv
